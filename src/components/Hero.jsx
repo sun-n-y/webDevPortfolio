@@ -1,9 +1,9 @@
-import heroImg from '../assets/hero.svg';
+import me from '../assets/me.jpg';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className="bg-emerald-100 py-24">
+    <div className="bg-emerald-100 py-20">
       <div className="align-elements grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Sunny</h1>
@@ -21,13 +21,13 @@ const Hero = () => {
             >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300" />
             </a>
-            {/* <a href="https://www.linkedin.com/in/sunny-patel-skp/">
+            <a href="https://www.linkedin.com/in/sunny-patel-skp/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300" />
-            </a> */}
+            </a>
           </div>
         </article>
-        <article className="hidden md:block">
-          <img src={heroImg} className="h-80 lg:h-96" />
+        <article>
+          <img src={me} className="h-40 sm:h-60  md:h-80 lg:h-96" />
         </article>
       </div>
     </div>
