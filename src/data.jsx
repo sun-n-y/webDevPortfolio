@@ -14,8 +14,8 @@ export const skills = [
     title: 'HTML & CSS',
     icon: (
       <div className="flex">
-        <FaHtml5 className="h-16 w-16 text-emerald-500 " />
-        <FaCss3Alt className="h-16 w-16 text-emerald-500" />
+        <FaHtml5 className="h-16 w-16 text-red-600 " />
+        <FaCss3Alt className="h-16 w-16 text-blue-600" />
       </div>
     ),
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
@@ -23,13 +23,13 @@ export const skills = [
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
+    icon: <FaJs className="h-16 w-16 text-yellow-400" />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
+    icon: <FaReact className="h-16 w-16 text-sky-400" />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 ];
