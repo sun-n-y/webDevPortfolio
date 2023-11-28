@@ -14,7 +14,11 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="https://github.com/sun-n-y">
+            <a
+              href="https://github.com/sun-n-y"
+              target="_blank"
+              rel="norefferrer"
+            >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300" />
             </a>
             {/* <a href="https://www.linkedin.com/in/sunny-patel-skp/">
