@@ -16,7 +16,7 @@ const About = () => {
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold">City:</h4>
-          <h4 className="">Dalton, Georiga</h4>
+          <h4 className="">Dalton, Georgia</h4>
         </div>
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
