@@ -21,7 +21,11 @@ const Hero = () => {
             >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300" />
             </a>
-            <a href="https://www.linkedin.com/in/sunny-patel-skp/">
+            <a
+              href="https://www.linkedin.com/in/sunny-patel-skp/"
+              target="_blank"
+              rel="norefferrer"
+            >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300" />
             </a>
           </div>
