@@ -33,30 +33,3 @@ export const skills = [
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 ];
-
-export const projects = [
-  {
-    id: nanoid(),
-    img: 'assets/ecommerce.png',
-    url: 'https://sun-n-y.github.io/comfyStore/',
-    github: 'https://github.com/sun-n-y/comfyStore',
-    title: 'E-commerce',
-    text: 'vanilla HTML, CSS, & JavaScript',
-  },
-  {
-    id: nanoid(),
-    img: 'assets/todo.png',
-    url: 'https://sun-n-y.github.io/toDoListAppSolo/',
-    github: 'https://github.com/sun-n-y/toDoListAppSolo',
-    title: 'To-do List',
-    text: 'React + Vite, Local Storage CRUD',
-  },
-  {
-    id: nanoid(),
-    img: 'assets/drinks.png',
-    url: 'https://mix-master-rq-rr.netlify.app/',
-    github: 'https://github.com/sun-n-y/mixMaster',
-    title: 'Drink Mix Recipes',
-    text: 'Axios, React Query, React Router',
-  },
-];
