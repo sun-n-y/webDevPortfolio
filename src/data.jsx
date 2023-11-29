@@ -40,8 +40,8 @@ export const projects = [
     img: '../src/assets/ecommerce.PNG',
     url: 'https://sun-n-y.github.io/comfyStore/',
     github: 'https://github.com/sun-n-y/comfyStore',
-    title: 'E-commerce ',
-    text: 'README : (Vanilla HTML, CSS, and JS), range input, flexbox, css grid, query selectors, load events, arrow functions, template strings, destructuring, modules, fetch data, async js, load content dynamically, intl-number format, locale storage crud',
+    title: 'E-commerce',
+    text: 'vanilla HTML, CSS, & JavaScript',
   },
   {
     id: nanoid(),
@@ -49,7 +49,7 @@ export const projects = [
     url: 'https://sun-n-y.github.io/toDoListAppSolo/',
     github: 'https://github.com/sun-n-y/toDoListAppSolo',
     title: 'To-do List',
-    text: 'README : vite + react, useState, render components, index css, toastify, nanoid, local storage, inputs,and or operator',
+    text: 'React + Vite, Local Storage CRUD',
   },
   {
     id: nanoid(),
@@ -57,6 +57,6 @@ export const projects = [
     url: 'https://mix-master-rq-rr.netlify.app/',
     github: 'https://github.com/sun-n-y/mixMaster',
     title: 'Drink Mix Recipes',
-    text: 'README : vite + react, useState, render components, index css, toastify, Styled Components, local storage, react router, error handling, axios, formData api, react query, and or operators',
+    text: 'Axios, React Query, React Router',
   },
 ];
