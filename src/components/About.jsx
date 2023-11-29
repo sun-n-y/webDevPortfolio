@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
-          <h4 className="font-bold">Email:</h4>
+          <h4 className="font-bold">E-mail:</h4>
           <h4 className="">sunnykpatel.skp@gmail.com</h4>
         </div>
         <div className="div flex items-center  gap-2">
@@ -31,7 +31,7 @@ const About = () => {
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold">Hobbies:</h4>
-          <h4 className="">Team-Sports, Travel, Meditation</h4>
+          <h4 className="">Sports, Travel, Meditation</h4>
         </div>
       </div>
     </section>
