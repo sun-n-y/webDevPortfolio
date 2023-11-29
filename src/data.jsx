@@ -37,26 +37,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'assets/ecommerce.png',
+    img: '../src/assets/ecommerce.PNG',
     url: 'https://sun-n-y.github.io/comfyStore/',
     github: 'https://github.com/sun-n-y/comfyStore',
     title: 'E-commerce ',
-    text: 'Concepts applied but not limited to: (Vanilla HTML, CSS, and JS), range input, flexbox, css grid, query selectors, load events, arrow functions, template strings, destructuring, modules, fetch data, async js, load content dynamically, intl-number format, locale storage crud',
+    text: 'README : (Vanilla HTML, CSS, and JS), range input, flexbox, css grid, query selectors, load events, arrow functions, template strings, destructuring, modules, fetch data, async js, load content dynamically, intl-number format, locale storage crud',
   },
   {
     id: nanoid(),
-    img: 'assets/todo.png',
+    img: '../src/assets/todo.png',
     url: 'https://sun-n-y.github.io/toDoListAppSolo/',
     github: 'https://github.com/sun-n-y/toDoListAppSolo',
     title: 'To-do List',
-    text: 'Concepts applied but not limited to : vite + react, useState, render components, index css, toastify, nanoid, local storage, inputs,and or operator',
+    text: 'README : vite + react, useState, render components, index css, toastify, nanoid, local storage, inputs,and or operator',
   },
   {
     id: nanoid(),
-    img: 'assets/drinks.png',
+    img: '../src/assets/drinks.png',
     url: 'https://mix-master-rq-rr.netlify.app/',
     github: 'https://github.com/sun-n-y/mixMaster',
     title: 'Drink Mix Recipes',
-    text: 'Concepts applied but not limited to : vite + react, useState, render components, index css, toastify, Styled Components, local storage, react router, error handling, axios, formData api, react query, and or operators',
+    text: 'README : vite + react, useState, render components, index css, toastify, Styled Components, local storage, react router, error handling, axios, formData api, react query, and or operators',
   },
 ];
