@@ -7,7 +7,7 @@ const Projects = () => {
   const { loading, projects } = useFetchProjects();
 
   return (
-    <section className="py-20 align-elements" id="projects">
+    <section className="py-14 align-elements md:py-16 lg:py-20" id="projects">
       <SectionTitle text="web creations" />
       {loading ? (
         <div className=" py-8 flex justify-center ">

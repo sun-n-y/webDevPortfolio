@@ -9,9 +9,9 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
         alt={title}
         className="w-full object-cover rounded-t-lg h-64"
       />
-      <div className="p-8 grid grid-rows-3 gap-1 items-center">
+      <div className="p-8 grid grid-rows-3 gap-2 md:gap-3 lg:gap-4 items-center">
         <h2 className="text-xl tracking-wide font-medium">{title}</h2>
-        <p className="mt-4 text-slate-500 leading-loose">{text}</p>
+        <p className=" text-slate-500 leading-loose">{text}</p>
         <div className="flex gap-x-4 justify-self-end">
           <a href={url} target="_blank" rel="noreferrer">
             <TbWorldWww className="h-8 w-8 text-sky-500 hover:text-sky-200 duration-300" />

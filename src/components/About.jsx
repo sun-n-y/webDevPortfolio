@@ -3,11 +3,11 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <section className="bg-white py-20 " id="about">
+    <section className="bg-white py-14 md:py-16 lg:py-24" id="about">
       <div className="align-elements">
         <SectionTitle text={'about'} />
       </div>
-      <div className="grid py-16 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 align-elements">
+      <div className="grid pt-12 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 align-elements">
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold">Phone:</h4>
