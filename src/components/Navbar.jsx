@@ -2,7 +2,7 @@ import { links } from '../data';
 
 const Navbar = () => {
   return (
-    <nav className="bg-emerald-100">
+    <nav className="bg-emerald-100" id="home">
       <div className="align-elements py-8 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-10 ">
         <div className="flex gap-x-3">
           {links.map((link) => {
