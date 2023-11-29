@@ -37,7 +37,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: '../src/assets/ecommerce.PNG',
+    img: 'src/assets/ecommerce.PNG',
     url: 'https://sun-n-y.github.io/comfyStore/',
     github: 'https://github.com/sun-n-y/comfyStore',
     title: 'E-commerce',
@@ -45,7 +45,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../src/assets/todo.png',
+    img: 'src/assets/todo.png',
     url: 'https://sun-n-y.github.io/toDoListAppSolo/',
     github: 'https://github.com/sun-n-y/toDoListAppSolo',
     title: 'To-do List',
@@ -53,7 +53,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../src/assets/drinks.png',
+    img: 'src/assets/drinks.png',
     url: 'https://mix-master-rq-rr.netlify.app/',
     github: 'https://github.com/sun-n-y/mixMaster',
     title: 'Drink Mix Recipes',
