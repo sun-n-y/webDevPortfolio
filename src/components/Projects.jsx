@@ -1,6 +1,17 @@
+import { createClient } from 'contentful';
 import { projects } from '../data';
 import ProjectsCard from './ProjectsCard';
 import SectionTitle from './SectionTitle';
+
+const client = createClient({
+  space: '4yts2s6194dp',
+  accessToken: import.meta.env.VITE_API_KEY,
+});
+
+client
+  .getEntries({ content_type: 'portfolioProjects' })
+  .then((response) => console.log(response.items))
+  .catch(console.error);
 
 const Projects = () => {
   return (
