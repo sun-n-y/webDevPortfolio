@@ -6,8 +6,6 @@
 
 - ### vite + react
 - ### tailwind CSS
-- ### toastify
-- ### local storage
 - ### contentful CMS
 
 [Back to Top](#custom_anchor_name)
