@@ -21,16 +21,16 @@ const Footer = () => {
             href={resume}
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-x-1 text-lg "
+            className="flex items-center gap-x-1 text-lg hover:text-gray-300 duration-300 "
           >
             <IoDocumentTextSharp className="text-2xl text-black-500 hover:text-gray-300 duration-300" />
             Resume
-          </a>{' '}
+          </a>
           <a
             href="https://github.com/sun-n-y/webDevPortfolio"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-x-1 text-lg"
+            className="flex items-center gap-x-1 text-lg hover:text-gray-300 duration-300"
           >
             <FaGithubSquare className="text-2xl text-black-500 hover:text-gray-300 duration-300" />
             <span>Portfolio code</span>
