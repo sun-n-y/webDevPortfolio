@@ -4,7 +4,6 @@ import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs';
 
 const Navbar = () => {
   const { isDarkTheme, toggleDarkTheme } = useGlobalContext();
-  console.log(isDarkTheme);
 
   return (
     <nav className="bg-emerald-100 dark:bg-neutral-700" id="home">
