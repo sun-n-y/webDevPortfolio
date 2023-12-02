@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'dark-grey': '#121212',
+      },
+    },
   },
   plugins: [],
   darkMode: 'class',
