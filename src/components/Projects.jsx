@@ -7,19 +7,24 @@ const Projects = () => {
   const { loading, projects } = useFetchProjects();
 
   return (
-    <section className="pt-14 align-elements md:py-16 lg:py-20" id="projects">
-      <SectionTitle text="web creations" />
-      {loading ? (
-        <div className=" py-8 flex justify-center ">
-          <img src={loadingGif} alt="" className="" />
-        </div>
-      ) : (
-        <div className="py-16 grid gap-8 lg:grid-cols-2 xl:grid-cols-3">
-          {projects.map((project) => {
-            return <ProjectsCard key={project.id} {...project} />;
-          })}
-        </div>
-      )}
+    <section
+      className="pt-14 md:py-16 lg:py-20 dark:bg-dark-grey duration-200"
+      id="projects"
+    >
+      <div className="align-elements">
+        <SectionTitle text="web creations" />
+        {loading ? (
+          <div className=" py-8 flex justify-center ">
+            <img src={loadingGif} />
+          </div>
+        ) : (
+          <div className="py-16 grid gap-8 lg:grid-cols-2 xl:grid-cols-3">
+            {projects.map((project) => {
+              return <ProjectsCard key={project.id} {...project} />;
+            })}
+          </div>
+        )}
+      </div>
     </section>
   );
 };

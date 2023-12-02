@@ -3,7 +3,7 @@ import { TbWorldWww } from 'react-icons/tb';
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
   return (
-    <article className="bg-white h-full rounded-lg shadow-md hover:shadow-xl duration-300">
+    <article className="bg-white dark:bg-gray-300 h-full rounded-lg shadow-md hover:shadow-xl duration-300">
       <img
         src={img}
         alt={title}
@@ -14,10 +14,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
         <p className=" text-slate-500 leading-loose">{text}</p>
         <div className="flex gap-x-4 justify-self-end">
           <a href={url} target="_blank" rel="noreferrer">
-            <TbWorldWww className="h-8 w-8 text-sky-500 hover:text-sky-200 duration-300" />
+            <TbWorldWww className="h-8 w-8 text-sky-500 hover:text-sky-200 dark:hover:text-sky-300 duration-300" />
           </a>
           <a href={github} target="_blank" rel="noreferrer">
-            <FaGithubSquare className="h-8 w-8 text-black-500 hover:text-gray-300 duration-300" />
+            <FaGithubSquare className="h-8 w-8 text-black-500 hover:text-gray-300  dark:hover:text-slate-500 duration-300" />
           </a>
         </div>
       </div>
