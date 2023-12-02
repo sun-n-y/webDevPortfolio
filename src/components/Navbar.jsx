@@ -6,7 +6,10 @@ const Navbar = () => {
   const { isDarkTheme, toggleDarkTheme } = useGlobalContext();
 
   return (
-    <nav className="bg-emerald-100 duration-200 dark:bg-dark-grey" id="home">
+    <nav
+      className="bg-emerald-100 duration-200 dark:bg-dark-grey mx-auto max-w-7xl  dark:border-b border-emerald-500 "
+      id="home"
+    >
       <div className="align-elements py-8 flex flex-row justify-between items-end sm:flex-row sm:gap-x-16 sm:items-center sm:py-10 ">
         <div className="flex gap-x-3">
           {links.map((link) => {
