@@ -14,26 +14,34 @@ const About = () => {
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold dark:text-slate-200 duration-200">Phone:</h4>
-          <h4 className="dark:text-slate-400 duration-200">(808) 649 8220</h4>
+          <a
+            href="tel:808-649-8220"
+            className="dark:text-slate-400 duration-200"
+          >
+            (808) 649 8220
+          </a>
         </div>
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold dark:text-slate-200 duration-200">City:</h4>
           <h4 className="dark:text-slate-400 duration-200">Dalton, Georgia</h4>
-        </div>
-        <div className="div flex items-center  gap-2">
-          <FaChevronRight className="text-emerald-500" />
-          <h4 className="font-bold dark:text-slate-200 duration-200">Email:</h4>
-          <h4 className="dark:text-slate-400 duration-200">
-            sunnykpatel.skp@gmail.com
-          </h4>
-        </div>
+        </div>{' '}
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold dark:text-slate-200 duration-200">
             Nationality:
           </h4>
           <h4 className="dark:text-slate-400 duration-200">U.S. Citizen</h4>
+        </div>
+        <div className="div flex items-center  gap-2">
+          <FaChevronRight className="text-emerald-500" />
+          <h4 className="font-bold dark:text-slate-200 duration-200">Email:</h4>
+          <a
+            href="mailto:sunnykpatel.skp@gmail.com"
+            className="dark:text-slate-400 duration-200"
+          >
+            sunnykpatel.skp@gmail.com
+          </a>
         </div>
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
