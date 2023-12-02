@@ -19,14 +19,14 @@ const Hero = () => {
             <a
               href="https://github.com/sun-n-y"
               target="_blank"
-              rel="norefferrer"
+              rel="noreferrer"
             >
               <FaGithubSquare className="h-8 w-8 text-slate-500  hover:text-slate-300 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
             </a>
             <a
               href="https://www.linkedin.com/in/sunny-patel-skp/"
               target="_blank"
-              rel="norefferrer"
+              rel="noreferrer"
             >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
             </a>
