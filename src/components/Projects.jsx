@@ -12,7 +12,9 @@ const Projects = () => {
       id="projects"
     >
       <div className="align-elements">
-        <SectionTitle text="web creations" />
+        <div>
+          <SectionTitle text="web creations" link="see more" />
+        </div>
         {loading ? (
           <div className=" py-8 flex justify-center ">
             <img src={loadingGif} />
