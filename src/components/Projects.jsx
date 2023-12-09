@@ -13,7 +13,11 @@ const Projects = () => {
     >
       <div className="align-elements">
         <div>
-          <SectionTitle text="web creations" link="see more" />
+          <SectionTitle
+            text="web creations"
+            text2="see more"
+            link="https://react-projects-sp.netlify.app/"
+          />
         </div>
         {loading ? (
           <div className=" py-8 flex justify-center ">
