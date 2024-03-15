@@ -8,7 +8,7 @@ const About = () => {
       id="about"
     >
       <div className="align-elements">
-        <SectionTitle text={'about'} />
+        <SectionTitle text={'about me'} />
       </div>
       <div className="grid pt-12 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 align-elements">
         <div className="div flex items-center  gap-2">

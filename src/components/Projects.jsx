@@ -30,6 +30,10 @@ const Projects = () => {
             })}
           </div>
         )}
+        <h4 className="text-center italic text-slate-400">
+          *Hosted on Render with free tier, site will take 50 seconds or more to
+          spin up
+        </h4>
       </div>
     </section>
   );
