@@ -10,7 +10,7 @@ const Hero = () => {
             I'm Sunny
           </h1>
           <p className="mt-4 text-3xl text-slate-700 dark:text-slate-400 capitalize tracking-wide">
-            front-end developer
+            Computer Science Student
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide dark:text-slate-400">
             turning ideas into interactive reality
@@ -21,14 +21,14 @@ const Hero = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithubSquare className="h-8 w-8 text-slate-500  hover:text-slate-300 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
+              <FaGithubSquare className="h-8 w-8 text-slate-500  hover:text-orange-500 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
             </a>
             <a
               href="https://www.linkedin.com/in/sunny-patel-skp/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-slate-300 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
+              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-blue-500 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
             </a>
           </div>
         </article>

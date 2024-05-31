@@ -1,5 +1,7 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaCss3Alt } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaNode } from 'react-icons/fa';
+import { SiTypescript, SiExpress } from 'react-icons/si';
+import { BiLogoMongodb } from 'react-icons/bi';
 
 export const links = [
   { id: nanoid(), href: '#skills', text: 'skills' },
@@ -21,14 +23,26 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'Javascript',
-    icon: <FaJs className="h-16 w-16 text-yellow-400" />,
+    title: 'JavaScript - TypeScript',
+    icon: (
+      <div className="flex items-center">
+        <FaJs className="h-16 w-16 text-yellow-400" />
+        <SiTypescript className="h-14 w-14 text-blue-500" />
+      </div>
+    ),
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className="h-16 w-16 text-sky-400" />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'MongoDB - Express - React - Node',
+    icon: (
+      <div className="flex items-center gap-x-2.5">
+        <BiLogoMongodb className="h-16 w-16 text-green-400" />
+        <SiExpress className="h-16 w-16 text-slate-950" />
+        <FaReact className="h-16 w-16 text-sky-400" />
+        <FaNode className="h-16 w-16 text-green-600" />
+      </div>
+    ),
+    text: 'Advanced proficiency in React, developing efficient and interactive full-stack applications with a strong emphasis on component-based architecture.',
   },
 ];

@@ -13,19 +13,18 @@ const About = () => {
       <div className="grid pt-12 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 align-elements">
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
-          <h4 className="font-bold dark:text-slate-200 duration-200">Phone:</h4>
-          <a
-            href="tel:808-649-8220"
-            className="hover:text-emerald-500 dark:hover:text-emerald-500 dark:text-slate-400 duration-200"
-          >
-            (808) 649 8220
-          </a>
+          <h4 className="font-bold dark:text-slate-200 duration-200">
+            Hobbies:
+          </h4>
+          <h4 className="dark:text-slate-400 duration-200">
+            Sports, Travel, Meditation
+          </h4>
         </div>
-        <div className="div flex items-center  gap-2">
+        {/* <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold dark:text-slate-200 duration-200">City:</h4>
           <h4 className="dark:text-slate-400 duration-200">Dalton, Georgia</h4>
-        </div>
+        </div> */}
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
           <h4 className="font-bold dark:text-slate-200 duration-200">
@@ -45,12 +44,13 @@ const About = () => {
         </div>
         <div className="div flex items-center  gap-2">
           <FaChevronRight className="text-emerald-500" />
-          <h4 className="font-bold dark:text-slate-200 duration-200">
-            Hobbies:
-          </h4>
-          <h4 className="dark:text-slate-400 duration-200">
-            Sports, Travel, Meditation
-          </h4>
+          <h4 className="font-bold dark:text-slate-200 duration-200">Phone:</h4>
+          <a
+            href="tel:808-649-8220"
+            className="hover:text-emerald-500 dark:hover:text-emerald-500 dark:text-slate-400 duration-200"
+          >
+            (808) 649 8220
+          </a>
         </div>
       </div>
     </section>
