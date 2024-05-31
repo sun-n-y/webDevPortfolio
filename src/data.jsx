@@ -36,9 +36,9 @@ export const skills = [
     id: nanoid(),
     title: 'MongoDB - Express - React - Node',
     icon: (
-      <div className="flex items-center gap-x-2.5">
+      <div className="flex items-center gap-x-3">
         <BiLogoMongodb className="h-16 w-16 text-green-400" />
-        <SiExpress className="h-16 w-16 text-slate-950" />
+        <SiExpress className="h-16 w-16 text-slate-950 dark:text-slate-200" />
         <FaReact className="h-16 w-16 text-sky-400" />
         <FaNode className="h-16 w-16 text-green-600" />
       </div>
