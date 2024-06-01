@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaNode } from 'react-icons/fa';
-import { SiTypescript, SiExpress } from 'react-icons/si';
+import { SiTypescript, SiExpress, SiTailwindcss } from 'react-icons/si';
 import { BiLogoMongodb } from 'react-icons/bi';
 
 export const links = [
@@ -12,11 +12,12 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: 'HTML & CSS',
+    title: 'HTML - CSS - Tailwind CSS',
     icon: (
-      <div className="flex">
-        <FaHtml5 className="h-16 w-16 text-red-600 " />
-        <FaCss3Alt className="h-16 w-16 text-blue-600" />
+      <div className="flex items-center gap-x-3">
+        <FaHtml5 className="h-16 w-16 text-[#e44d26] " />
+        <FaCss3Alt className="h-16 w-16 text-[#214ce5]" />
+        <SiTailwindcss className="h-16 w-16 text-[#38bdf8]" />
       </div>
     ),
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
@@ -25,9 +26,9 @@ export const skills = [
     id: nanoid(),
     title: 'JavaScript - TypeScript',
     icon: (
-      <div className="flex items-center">
+      <div className="flex items-center gap-x-3">
         <FaJs className="h-16 w-16 text-yellow-400" />
-        <SiTypescript className="h-14 w-14 text-blue-500" />
+        <SiTypescript className="h-14 w-14 text-[#3178c6]" />
       </div>
     ),
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
