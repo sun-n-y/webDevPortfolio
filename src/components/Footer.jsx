@@ -21,7 +21,7 @@ const Footer = () => {
             </span>
           </a>{' '}
           <a
-            href="https://www.linkedin.com/in/sunny-patel-skp/"
+            href="https://www.linkedin.com/in/sunnykp1/"
             target="_blank"
             rel="noreferrer"
             className="flex items-centergap-x-1 text-lg hover:text-gray-300 duration-300"
