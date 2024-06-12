@@ -34,7 +34,7 @@ const Hero = () => {
               <FaLinkedin className="h-8 w-8 text-slate-600 hover:text-blue-500 duration-500 dark:text-slate-400 dark:hover:text-blue-500" />
             </a>
             <a href="tel:808-649-8220">
-              <FaPhoneSquareAlt className="h-8 w-8 text-slate-600 hover:text-yellow-300 duration-500 dark:text-slate-400 dark:hover:text-blue-500" />
+              <FaPhoneSquareAlt className="h-8 w-8 text-slate-600 hover:text-green-400 duration-500 dark:text-slate-400 dark:hover:text-green-400" />
             </a>
           </div>
         </article>

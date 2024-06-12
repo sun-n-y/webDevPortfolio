@@ -4,7 +4,7 @@ import { FaArrowUpFromBracket } from 'react-icons/fa6';
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
   return (
-    <article className="bg-white dark:bg-gray-300 h-full rounded-lg shadow-md hover:shadow-xl duration-300">
+    <article className="bg-white dark:bg-gray-500 h-full rounded-lg shadow-md hover:shadow-xl dark:hover:bg-slate-600 duration-300">
       <img
         src={img}
         alt={title}
@@ -12,7 +12,9 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
       />
       <div className="p-8 grid grid-rows-3 gap-4 md:gap-6 lg:gap-8 items-center">
         <h2 className="text-xl tracking-wide font-medium">{title}</h2>
-        <p className=" text-slate-500 leading-loose">{text}</p>
+        <p className=" text-slate-500 leading-loose dark:text-slate-50">
+          {text}
+        </p>
         <div className="flex justify-between">
           <div className="flex gap-x-4">
             <a href={url} target="_blank" rel="noreferrer">
