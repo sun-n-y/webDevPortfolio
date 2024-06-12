@@ -1,3 +1,5 @@
+import { FaArrowUpFromBracket } from 'react-icons/fa6';
+
 const SectionTitle = ({ text, text2, link }) => {
   return (
     <div className="border-b border-gray-200 pb-5 dark:border-emerald-500 duration-200 flex items-center justify-between">
@@ -5,12 +7,19 @@ const SectionTitle = ({ text, text2, link }) => {
         {text}
       </h2>
       <a
-        href={link}
-        target="_blank"
-        rel="noreferrer"
+        href={link || '#home'}
+        target={link && '_blank'}
+        rel={link && 'noreferrer'}
         className="self-end italic text-slate-500 hover:text-emerald-500 dark:text-slate-400 dark:hover:text-emerald-500 duration-200"
       >
-        {text2}
+        {text2 ? (
+          <div className="flex gap-x-1">
+            {text2}
+            {/* <FaArrowUpFromBracket className="self-center" /> */}
+          </div>
+        ) : (
+          <FaArrowUpFromBracket />
+        )}
       </a>
     </div>
   );

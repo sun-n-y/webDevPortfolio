@@ -49,7 +49,7 @@ const About = () => {
             href="tel:808-649-8220"
             className="hover:text-emerald-500 dark:hover:text-emerald-500 dark:text-slate-400 duration-200"
           >
-            (808) 649 8220
+            (808) 649-8220
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import me from '../assets/me.jpg';
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaPhoneSquareAlt } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -9,26 +9,32 @@ const Hero = () => {
           <h1 className="text-7xl font-bold tracking-wider dark:text-slate-200 duration-200">
             I'm Sunny
           </h1>
-          <p className="mt-4 text-3xl text-slate-700 dark:text-slate-400 capitalize tracking-wide">
+          <p className="mt-4 text-2xl text-slate-700 dark:text-slate-400 capitalize tracking-wide lg:text-3xl">
             Computer Science Student
           </p>
-          <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide dark:text-slate-400">
-            turning ideas into interactive reality
+          <p className="mt-2 text-md text-slate-700 capitalize tracking-wide dark:text-slate-400">
+            expected grad: May 2026
           </p>
+          {/* <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide dark:text-slate-400">
+            turning ideas into interactive reality
+          </p> */}
           <div className="flex gap-x-4 mt-4">
             <a
               href="https://github.com/sun-n-y"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithubSquare className="h-8 w-8 text-slate-500  hover:text-orange-500 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
+              <FaGithubSquare className="h-8 w-8 text-slate-600  hover:text-orange-500 duration-500 dark:text-slate-400 dark:hover:text-orange-400" />
             </a>
             <a
               href="https://www.linkedin.com/in/sunnykp1/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-blue-500 duration-300 dark:text-slate-400 dark:hover:text-emerald-600" />
+              <FaLinkedin className="h-8 w-8 text-slate-600 hover:text-blue-500 duration-500 dark:text-slate-400 dark:hover:text-blue-500" />
+            </a>
+            <a href="tel:808-649-8220">
+              <FaPhoneSquareAlt className="h-8 w-8 text-slate-600 hover:text-yellow-300 duration-500 dark:text-slate-400 dark:hover:text-blue-500" />
             </a>
           </div>
         </article>

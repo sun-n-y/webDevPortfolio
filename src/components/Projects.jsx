@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <section
-      className="pt-14 md:py-16 lg:py-20 dark:bg-dark-grey duration-200"
+      className="pt-14 py-16 lg:py-20 dark:bg-dark-grey duration-200"
       id="projects"
     >
       <div className="align-elements">
