@@ -10,7 +10,7 @@ const SectionTitle = ({ text, text2, link }) => {
         href={link || '#home'}
         target={link && '_blank'}
         rel={link && 'noreferrer'}
-        className="self-end italic text-slate-500 hover:text-emerald-500 dark:text-slate-400 dark:hover:text-emerald-500 duration-200"
+        className="self-end italic text-slate-400 hover:text-emerald-500 dark:text-slate-400 dark:hover:text-emerald-500 duration-200"
       >
         {text2 ? (
           <div className="flex gap-x-1">
@@ -18,7 +18,7 @@ const SectionTitle = ({ text, text2, link }) => {
             {/* <FaArrowUpFromBracket className="self-center" /> */}
           </div>
         ) : (
-          <FaArrowUpFromBracket />
+          <FaArrowUpFromBracket className="mb-1 h-6 w-6 md:h-5 md:w-5" />
         )}
       </a>
     </div>
