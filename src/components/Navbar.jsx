@@ -1,7 +1,7 @@
 import { useGlobalContext } from '../context';
 import { links } from '../data';
 import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs';
-import resume from "../assets/Sunny's Resume.pdf";
+import resume from '../assets/Sunny_Patel_Resume.pdf';
 
 const Navbar = () => {
   const { isDarkTheme, toggleDarkTheme } = useGlobalContext();

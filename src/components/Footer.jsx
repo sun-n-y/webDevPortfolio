@@ -2,7 +2,7 @@ import { links } from '../data';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { IoDocumentTextSharp } from 'react-icons/io5';
 import { BsArrowUpSquareFill } from 'react-icons/bs';
-import resume from "../assets/Sunny's Resume.pdf";
+import resume from '../assets/Sunny_Patel_Resume.pdf';
 
 const Footer = () => {
   return (
