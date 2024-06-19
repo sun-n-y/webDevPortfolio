@@ -4,7 +4,7 @@ import { FaArrowUpFromBracket } from 'react-icons/fa6';
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
   return (
-    <article className="bg-white dark:bg-gray-500 h-full rounded-lg shadow-md hover:shadow-xl dark:hover:bg-slate-600 duration-300">
+    <article className="bg-emerald-100 dark:bg-gray-500 h-full rounded-lg shadow-md hover:shadow-xl dark:hover:bg-slate-600 duration-300">
       <img
         src={img}
         alt={title}

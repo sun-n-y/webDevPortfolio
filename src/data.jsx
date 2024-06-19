@@ -12,34 +12,37 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: 'HTML - CSS - Tailwind CSS',
+    title: 'HTML - CSS',
+    // title: 'HTML - CSS - Tailwind CSS',
     icon: (
       <div className="flex items-center gap-x-3">
         <FaHtml5 className="h-14 w-14 md:h-16 md:w-16 text-[#e44d26] " />
         <FaCss3Alt className="h-14 w-14 md:h-16 md:w-16 text-[#214ce5]" />
-        <SiTailwindcss className="h-14 w-14 md:h-16 md:w-16 text-[#38bdf8]" />
+        {/* <SiTailwindcss className="h-14 w-14 md:h-16 md:w-16 text-[#38bdf8]" /> */}
       </div>
     ),
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
   {
     id: nanoid(),
-    title: 'JavaScript - TypeScript',
+    title: 'JavaScript',
+    // title: 'JavaScript - TypeScript',
     icon: (
       <div className="flex items-center gap-x-3">
         <FaJs className="h-14 w-14 md:h-16 md:w-16 text-yellow-400" />
-        <SiTypescript className="h-12 w-12 md:h-14 md:w-14 text-[#3178c6]" />
+        {/* <SiTypescript className="h-12 w-12 md:h-14 md:w-14 text-[#3178c6]" /> */}
       </div>
     ),
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
-    title: 'MongoDB - Express - React - Node',
+    title: 'React - Node',
+    // title: 'MongoDB - Express - React - Node',
     icon: (
       <div className="flex items-center gap-x-3">
-        <BiLogoMongodb className="h-14 w-14 md:h-16 md:w-16 text-green-400" />
-        <SiExpress className="h-14 w-14 md:h-16 md:w-16 text-slate-950 dark:text-slate-200" />
+        {/* <BiLogoMongodb className="h-14 w-14 md:h-16 md:w-16 text-green-400" /> */}
+        {/* <SiExpress className="h-14 w-14 md:h-16 md:w-16 text-slate-950 dark:text-slate-200" /> */}
         <FaReact className="h-14 w-14 md:h-16 md:w-16 text-sky-400" />
         <FaNode className="h-14 w-14 md:h-16 md:w-16 text-green-600" />
       </div>
