@@ -33,7 +33,7 @@ export const skills = [
         {/* <SiTypescript className="h-12 w-12 md:h-14 md:w-14 text-[#3178c6]" /> */}
       </div>
     ),
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality.',
   },
   {
     id: nanoid(),
