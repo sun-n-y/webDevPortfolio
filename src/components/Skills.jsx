@@ -5,7 +5,7 @@ import SkillsCard from './SkillsCard';
 const Skills = () => {
   return (
     <section
-      className="py-12 md:py-14 lg:py-16 dark:bg-dark-grey duration-200"
+      className="py-12 md:py-14 lg:py-16 dark:bg-[#000000] duration-200"
       id="skills"
     >
       <div className="align-elements">

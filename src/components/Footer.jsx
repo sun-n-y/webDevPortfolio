@@ -6,7 +6,7 @@ import resume from '../assets/Sunny_Patel_Resume.pdf';
 
 const Footer = () => {
   return (
-    <footer className="bg-emerald-100 dark:bg-dark-grey md:py-8">
+    <footer className="bg-emerald-100 dark:bg-[#000000] md:py-8">
       <div className="align-elements justify-between py-10 flex flex-col-2 sm:flex-row sm:gap-x-1 sm:items-center sm:py-10 dark:border-t border-emerald-500 ">
         <div className="flex justify-between gap-x-1 gap-y-1 flex-col">
           <a

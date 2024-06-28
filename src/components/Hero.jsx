@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin, FaPhoneSquareAlt } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className="bg-emerald-100 duration-200 dark:bg-dark-grey py-20">
+    <div className="bg-emerald-100 duration-200 dark:bg-[#000000] py-20">
       <div className="align-elements grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider dark:text-slate-200 duration-200">

@@ -4,7 +4,7 @@ import { FaChevronRight } from 'react-icons/fa';
 const About = () => {
   return (
     <section
-      className="bg-white dark:bg-dark-grey duration-200 py-14 md:py-16 lg:py-24"
+      className="bg-white dark:bg-[#000000] duration-200 py-14 md:py-16 lg:py-24"
       id="about"
     >
       <div className="align-elements">
