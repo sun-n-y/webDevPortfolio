@@ -17,7 +17,7 @@ const About = () => {
             Hobbies:
           </h4>
           <h4 className="dark:text-slate-400 duration-200">
-            Sports, Travel, Meditation
+            Sports, Travel
           </h4>
         </div>
         {/* <div className="div flex items-center  gap-2">
