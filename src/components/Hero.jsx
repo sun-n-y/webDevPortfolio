@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="align-elements grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider dark:text-slate-200 duration-200">
-            I'm Sunny
+            Hi, I'm Sunny
           </h1>
-{/*           <p className="mt-4 text-2xl text-slate-700 dark:text-slate-400 capitalize tracking-wide lg:text-3xl">
-            Seeking a job in Software Development
-          </p> */}
+           <p className="mt-4 text-1xl text-slate-700 dark:text-slate-400 capitalize tracking-wide lg:text-3xl">
+            Seeking job in Software Development
+          </p>
 {/*           <p className="mt-2 text-md text-slate-700 capitalize tracking-wide dark:text-slate-400">
             expected grad: May 2026
           </p> */}
