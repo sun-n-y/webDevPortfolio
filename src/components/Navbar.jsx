@@ -1,7 +1,7 @@
 import { useGlobalContext } from '../context';
 import { links } from '../data';
 import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs';
-import resume from '../assets/Sunny_Patel_Resume.pdf';
+// import resume from '../assets/Sunny_Patel_Resume.pdf';
 
 const Navbar = () => {
   const { isDarkTheme, toggleDarkTheme } = useGlobalContext();
@@ -22,14 +22,14 @@ const Navbar = () => {
               </a>
             );
           })}
-          <a
+{/*           <a
             href={resume}
             target="_blank"
             rel="noreferrer"
             className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300 dark:text-slate-200 dark:hover:text-emerald-600"
           >
             Resume
-          </a>
+          </a> */}
         </div>
         <div className="grid">
           <button onClick={toggleDarkTheme}>
