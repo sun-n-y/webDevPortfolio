@@ -10,11 +10,11 @@ const Hero = () => {
             I'm Sunny
           </h1>
           <p className="mt-4 text-2xl text-slate-700 dark:text-slate-400 capitalize tracking-wide lg:text-3xl">
-            Computer Science Student
+            Seeking a job in Software Development
           </p>
-          <p className="mt-2 text-md text-slate-700 capitalize tracking-wide dark:text-slate-400">
+{/*           <p className="mt-2 text-md text-slate-700 capitalize tracking-wide dark:text-slate-400">
             expected grad: May 2026
-          </p>
+          </p> */}
           {/* <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide dark:text-slate-400">
             turning ideas into interactive reality
           </p> */}
