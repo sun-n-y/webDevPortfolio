@@ -20,6 +20,20 @@ const Footer = () => {
               Resume
             </span>
           </a>{' '} */}
+          <a href="tel:808-649-8220"
+            className="flex items-centergap-x-1 text-lg hover:text-gray-300 duration-300"
+            >
+               <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
+              Call Me
+            </span>
+            </a>
+          <a href="sms:+18086498220?body=Share%20this%20message%20on%20sms"
+            className="flex items-centergap-x-1 text-lg hover:text-gray-300 duration-300"
+            >
+               <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
+              Text Me
+            </span>
+            </a>
           <a
             href="https://www.linkedin.com/in/sunnykp1/"
             target="_blank"
