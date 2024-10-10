@@ -27,7 +27,7 @@ const Footer = () => {
               Call Me
             </span>
             </a>
-          <a href="sms:+18086498220?body=Share%20this%20message%20on%20sms"
+          <a href="sms:808-649-8220"
             className="flex items-centergap-x-1 text-lg hover:text-gray-300 duration-300"
             >
                <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
@@ -45,17 +45,17 @@ const Footer = () => {
               LinkedIn
             </span>
           </a>
-          <a
+{/*           <a
             href="https://github.com/sun-n-y/webDevPortfolio"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-x-1 text-lg hover:text-gray-300 duration-300"
           >
             {/* <FaGithubSquare className="text-2xl text-black-500 hover:text-gray-300 duration-300 dark:text-slate-200 dark:hover:text-emerald-500" /> */}
-            <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
+          {/*  <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
               Portfolio code
             </span>
-          </a>
+          </a> */}
         </div>
         <div className="flex gap-x-3 gap-y-1  flex-col justify-end">
           {links.map((link) => {
