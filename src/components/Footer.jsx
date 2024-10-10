@@ -2,24 +2,24 @@ import { links } from '../data';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { IoDocumentTextSharp } from 'react-icons/io5';
 import { BsArrowUpSquareFill } from 'react-icons/bs';
-import resume from '../assets/Sunny_Patel_Resume.pdf';
+// import resume from '../assets/Sunny_Patel_Resume.pdf';
 
 const Footer = () => {
   return (
     <footer className="bg-emerald-100 dark:bg-[#000000] md:py-8">
       <div className="align-elements justify-between py-10 flex flex-col-2 sm:flex-row sm:gap-x-1 sm:items-center sm:py-10 dark:border-t border-emerald-500 ">
         <div className="flex justify-between gap-x-1 gap-y-1 flex-col">
-          <a
+          {/* <a
             href={resume}
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-x-1 text-lg hover:text-gray-300 duration-300 "
           >
             {/* <IoDocumentTextSharp className="text-2xl text-black-500 hover:text-gray-300 duration-300 dark:text-slate-200 dark:hover:text-emerald-500" /> */}
-            <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
+          {/* <span className="dark:text-slate-200 dark:hover:text-emerald-500 duration-200">
               Resume
             </span>
-          </a>{' '}
+          </a>{' '} */}
           <a
             href="https://www.linkedin.com/in/sunnykp1/"
             target="_blank"
